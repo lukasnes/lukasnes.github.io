@@ -1,0 +1,26 @@
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 70px;
+}
+.header-image-row-left{
+    display: flex;
+    justify-content: space-between;
+    width: 180px;
+}
+.header-text{
+    text-align: center;
+    width: auto;
+    height:fit-content;
+    background-color: #f7ebe8;
+    border: 5px solid #2e1f27;
+    border-radius: 25%;
+}
+.my-name{
+    font-family: 'Brush Script MT',cursive;
+    font-size: xx-large;
+    color: #59f8e8;
+    -webkit-text-stroke-color: #104f55;
+    -webkit-text-stroke-width: 2px;
+}
