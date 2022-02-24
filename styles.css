@@ -1,9 +1,18 @@
+@font-face {
+    font-family: pixelfont;
+    src: url('./pixel_font/Pixeltype.ttf');
+}
+body{
+    overflow-x: hidden;
+}
 .header{
+    position: sticky;
     display: flex;
     justify-content: space-evenly;
-    width: 100%;
+    align-items: center;
+    width: auto;
     height: 70px;
-    background-color: #6883ba;
+    background-color: #104f55;
     border-bottom: 5px solid #2e1f27;
 }
 .header-image-row-left{
@@ -11,23 +20,171 @@
     justify-content: space-between;
     width: 400px;
 }
+.image1{
+    background-color: #f7ebe8;
+    border: 2px solid #2e1f27;
+    border-radius: 25%;
+}
+.image2{
+    background-color: #f7ebe8;
+    border: 2px solid #2e1f27;
+    border-radius: 25%;
+}
+.image3{
+    background-color: #f7ebe8;
+    border: 2px solid #2e1f27;
+    border-radius: 25%;
+}
+.image4{
+    background-color: #f7ebe8;
+    border: 2px solid #2e1f27;
+    border-radius: 25%;
+}
 .header-text{
     text-align: center;
-    width: auto;
+    width: 280px;
     height:fit-content;
     background-color: #f7ebe8;
     border: 5px solid #2e1f27;
     border-radius: 25%;
 }
 .my-name{
-    font-family: 'Brush Script MT',cursive;
+    font-family: pixelfont;
     font-size: xx-large;
     color: #59f8e8;
     -webkit-text-stroke-color: #104f55;
-    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-width: .5px;
 }
 .header-image-row-right{
     display: flex;
     justify-content: space-between;
     width: 400px;
+}
+.image5{
+    background-color: #f7ebe8;
+    border: 2px solid #2e1f27;
+    border-radius: 25%;
+}
+.image6{
+    background-color: #f7ebe8;
+    border: 2px solid #2e1f27;
+    border-radius: 25%;
+}
+.image7{
+    background-color: #f7ebe8;
+    border: 2px solid #2e1f27;
+    border-radius: 25%;
+}
+.image8{
+    background-color: #f7ebe8;
+    border: 2px solid #2e1f27;
+    border-radius: 25%;
+}
+.about-me{
+    position: absolute;
+    left: 0px;
+    top: 75px;
+    height: calc(50% - 42.5px);
+    width: calc(50% - 5px);
+    background-color: #f7ebe8;
+    border-bottom: 5px solid #2e1f27;
+    border-right: 5px solid #2e1f27;
+    border-bottom-right-radius: 20%;
+}
+.skills{
+    position: absolute;
+    right: 0px;
+    top: 75px;
+    height: calc(50% - 42.5px);
+    width: calc(50% - 5px);
+    background-color: #6883ba;
+    border-left: 5px solid #104f55;
+    border-bottom: 5px solid #104f55;
+    border-bottom-left-radius: 20%;
+}
+.projects{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    height: calc(50% - 42.5px);
+    width: calc(50% - 5px);
+    background-color: #6883ba;
+    border-top: 5px solid #104f55;
+    border-right: 5px solid #104f55;
+    border-top-right-radius: 20%;
+}
+.contact{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    height: calc(50% - 42.5px);
+    width: calc(50% - 5px);
+    background-color: #f7ebe8;
+    border-top: 5px solid #2e1f27;
+    border-left: 5px solid #2e1f27;
+    border-top-left-radius: 20%;
+}
+.me{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 50%;
+    margin-left: -100px;
+    top: calc(50% + 37.5px);
+    margin-top: -100px;
+    background-image: url('./images/me.jpg');
+    background-size: 100% 100%;
+    border-radius: 50%;
+    border: 5px solid #2e1f27;
+}
+.about-title{
+    position: absolute;
+    left: 50%;
+    margin-left: -68.75px;
+    width: auto;
+    height: 40px;
+    font-family: pixelfont;
+    font-size: 50px;
+    color: #2e1f27;
+    -webkit-text-stroke-color: #59f8e8;
+    -webkit-text-stroke-width: .5px;
+}
+.nor{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+.ger{
+    position: absolute;
+    left: 70px;
+    top: 20px;
+}
+.usa{
+    position: absolute;
+    left: 45px;
+    top: 40px;
+}
+.flags{
+    width: 140px;
+    height: 100px;
+}
+.countries-lived{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    height: 100px;
+    background-color: #104f55;
+    border: 2px solid #2e1f27;
+}
+.countries-text{
+    width: 200px;
+    font-family: pixelfont;
+    font-size: large;
+    color: #f7ebe8;
+    -webkit-text-stroke-color: #59f8e8;
+    -webkit-text-stroke-width: .5px;
 }
