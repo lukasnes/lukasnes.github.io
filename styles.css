@@ -182,7 +182,7 @@ body{
 }
 .countries-text{
     width: 65%;
-    height: 80%;
+    height: 60%;
     font-family: pixelfont;
     font-size: large;
     color: #f7ebe8;
@@ -208,4 +208,133 @@ body{
     -webkit-animation-name: triforce;  
     -webkit-animation-iteration-count: infinite;  
     -webkit-animation-duration: 2s; 
+}
+.my-interests{
+    position: absolute;
+    left: 1%;
+    top: 55px;
+    width: 500px;
+    height: 250px;
+    background-color: #6883ba;
+    border: 2px solid #2e1f27;
+    border-bottom-right-radius: 30%;
+    border-top-left-radius: 30%;
+}
+.interests-container{
+    position: absolute;
+    top: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    height: 80%;
+    width: 100%;
+}
+.interest-pics{
+    left: 5%;
+    top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 40px;
+}
+.travel-box{
+    width: 40px;
+    height: 20px;
+}
+.gamer-box{
+    width: 40px;
+    height: 20px;
+}
+.artist-box{
+    width: 40px;
+    height: 20px;
+}
+.performance-box{
+    width: 40px;
+    height: 20px;
+}
+.interest-titles{
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    font-family: pixelfont;
+    font-size: x-large;
+    color: #f7ebe8;
+    text-align: center;
+    -webkit-text-stroke-color: #59f8e8;
+    -webkit-text-stroke-width: .5px;
+}
+.travel-title{
+    height: 20px;
+}
+.interest-text{
+    width: 200px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    font-family: pixelfont;
+    font-size: medium;
+    color: #f7ebe8;
+    text-align: center;
+    -webkit-text-stroke-color: #59f8e8;
+    -webkit-text-stroke-width: .5px;
+}
+.travel-text{
+    height: 30px;
+    overflow-y: scroll;
+}
+.travel-text::-webkit-scrollbar{
+    background-color: #f7ebe8;
+    width: 10px;
+    border-radius: 50%;
+}
+.travel-text::-webkit-scrollbar-thumb{
+    background-color: #59f8e8;
+    border: 2px solid #2e1f27;
+    border-radius: 50%;
+}
+.gamer-text{
+    height: 30px;
+    overflow-y: scroll;
+}
+.gamer-text::-webkit-scrollbar{
+    background-color: #f7ebe8;
+    width: 10px;
+    border-radius: 50%;
+}
+.gamer-text::-webkit-scrollbar-thumb{
+    background-color: #59f8e8;
+    border: 2px solid #2e1f27;
+    border-radius: 50%;
+}
+.artist-text{
+    height: 30px;
+    overflow-y: scroll;
+}
+.artist-text::-webkit-scrollbar{
+    background-color: #f7ebe8;
+    width: 10px;
+    border-radius: 50%;
+}
+.artist-text::-webkit-scrollbar-thumb{
+    background-color: #59f8e8;
+    border: 2px solid #2e1f27;
+    border-radius: 50%;
+}
+.performance-text{
+    height: 30px;
+    overflow-y: scroll;
+}
+.performance-text::-webkit-scrollbar{
+    background-color: #f7ebe8;
+    width: 10px;
+    border-radius: 50%;
+}
+.performance-text::-webkit-scrollbar-thumb{
+    background-color: #59f8e8;
+    border: 2px solid #2e1f27;
+    border-radius: 50%;
 }
