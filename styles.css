@@ -126,12 +126,12 @@ body{
 }
 .me{
     position: absolute;
-    width: 200px;
-    height: 200px;
+    width: 14%;
+    height: 26%;
     left: 50%;
-    margin-left: -100px;
+    margin-left: -7%;
     top: calc(50% + 37.5px);
-    margin-top: -100px;
+    margin-top: -7%;
     background-image: url('./images/me.jpg');
     background-size: 100% 100%;
     border-radius: 50%;
@@ -151,40 +151,42 @@ body{
 }
 .nor{
     position: absolute;
-    left: 20px;
-    top: 20px;
+    left: 5%;
+    top: 15%;
 }
 .ger{
     position: absolute;
-    left: 70px;
-    top: 20px;
+    left: 10%;
+    top: 30%;
 }
 .usa{
     position: absolute;
-    left: 45px;
-    top: 40px;
+    left: 5%;
+    top: 45%;
 }
 .flags{
-    width: 140px;
-    height: 100px;
+    width: 20%;
+    height: 100%;
 }
 .countries-lived{
     position: absolute;
-    bottom: 10px;
-    left: 10px;
+    bottom: 1%;
+    left: 1%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 40%;
-    height: 100px;
+    height: 20%;
     background-color: #104f55;
     border: 2px solid #2e1f27;
 }
 .countries-text{
-    width: 200px;
+    width: 65%;
+    height: 80%;
     font-family: pixelfont;
     font-size: large;
     color: #f7ebe8;
+    text-align: center;
     -webkit-text-stroke-color: #59f8e8;
     -webkit-text-stroke-width: .5px;
 }
