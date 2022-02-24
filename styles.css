@@ -51,8 +51,9 @@ body{
 .my-name{
     font-family: pixelfont;
     font-size: xx-large;
-    color: #59f8e8;
-    -webkit-text-stroke-color: #104f55;
+    color: #104f55;
+    text-align: center;
+    -webkit-text-stroke-color: #2e1f27;
     -webkit-text-stroke-width: .5px;
 }
 .header-image-row-right{
@@ -516,6 +517,7 @@ body{
     left: 10%;
     width: 80%;
     height: 80%;
+    font-family: pixelfont;
     background-color: #f7ebe8;
     border: 5px solid #104f55;
     border-top-right-radius: 25%;
