@@ -648,3 +648,12 @@ body{
     height: 80px;
     align-items: center;
 }
+.linkedin{
+    font-family: pixelfont;
+    text-align: center;
+    font-size: xx-large;
+    color: #f7ebe8;
+    -webkit-text-stroke-color: #59f8e8;
+    -webkit-text-stroke-width: .5px;
+    text-decoration: none;
+}
