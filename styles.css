@@ -240,18 +240,26 @@ body{
 .travel-box{
     width: 40px;
     height: 20px;
+    background-color: #104f55;
+    border: 2px solid #2e1f27;
 }
 .gamer-box{
     width: 40px;
     height: 20px;
+    background-color: #104f55;
+    border: 2px solid #2e1f27;
 }
 .artist-box{
     width: 40px;
     height: 20px;
+    background-color: #104f55;
+    border: 2px solid #2e1f27;
 }
 .performance-box{
     width: 40px;
     height: 20px;
+    background-color: #104f55;
+    border: 2px solid #2e1f27;
 }
 .interest-titles{
     width: 150px;
